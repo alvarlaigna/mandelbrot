@@ -1,17 +1,28 @@
-ruby 1.8 — 2.85
-python 2.6.6 — 1.1
-perl 5.10.1 — 1.1
-python 2.7.2 — 0.965
-ruby 1.9.1 — 0.962
-php 5.3.8 APC — 0.825
-pypy 1.7 — 0.046
-node.js 0.6.5 — 0.041
-clang 1.1 — 0.0172
-gcc 4.4.5 — 0.0167
-clang 1.1 -O3 — 0.0105
-gcc 4.4.5 -O3 — 0.0098
+Mandelbrot comparsion
+=====================
+
+Comparsion of languages and engines on mandelbrot calculation.
+
+Results
+-------
+
+|ruby 1.8|2.85|
+|python 2.6.6|1.1|
+|perl 5.10.1|1.1|
+|python 2.7.2|0.965|
+|ruby 1.9.1|0.962|
+|php 5.3.8 APC|0.825|
+|pypy 1.7|0.046|
+|node.js 0.6.5|0.041|
+|clang 1.1|0.0172|
+|gcc 4.4.5|0.0167|
+|clang 1.1 -O3|0.0105|
+|gcc 4.4.5 -O3|0.0098|
 
 Time in seconds.
+
+Lab description
+---------------
 
 Tested on clean i7-2700K 4q@3.4Ghz, 16Gb
 
@@ -21,4 +32,4 @@ All programs/scripts showed only elapsed time without any syscalls (echo, print,
 
     time %engine% script > /dev/null
 
-and `real` were used as results.
+and `real` was used as results.
